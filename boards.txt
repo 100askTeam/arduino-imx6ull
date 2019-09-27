@@ -6,22 +6,21 @@
 # License as published by the Free Software Foundation; either
 # version 2.1 of the License, or (at your option) any later version.
 
-am335x.name=100ask_am335x
+imx6ull.name=ebf_imx6ull_mini
 
 
-am335x.upload.tool=copy
-am335x.upload.protocol=copy
-am335x.upload.verbose=
-am335x.upload.speed=115200
+imx6ull.upload.tool=copy
+imx6ull.upload.protocol=copy
+imx6ull.upload.verbose=
+imx6ull.upload.speed=115200
 
-am335x.build.mcu=100ask_am335x
-am335x.build.f_cpu=
-am335x.build.board=RASPI
-am335x.build.core=100ask_am335x
-am335x.build.variant=100ask_am335x
-am335x.build.debug_flags=
-am335x.build.optimization_flags=-O3
+imx6ull.build.mcu=ebf_imx6ull_mini
+imx6ull.build.f_cpu=
+imx6ull.build.board=RASPI
+imx6ull.build.core=ebf_imx6ull_mini
+imx6ull.build.variant=ebf_imx6ull_mini
+imx6ull.build.debug_flags=
+imx6ull.build.optimization_flags=-O3
 
-
-am335x.upload.maximum_size=10485760
-am335x.upload.maximum_data_size=10485760
+imx6ull.upload.maximum_size=10485760
+imx6ull.upload.maximum_data_size=10485760
