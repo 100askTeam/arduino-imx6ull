@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map ADXL345
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ADXL345	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readData	KEYWORD2
+setw	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+adxl345	LITERAL1
+x_value	LITERAL1
+y_value	LITERAL1
+z_value	LITERAL1
+touch_value	LITERAL1

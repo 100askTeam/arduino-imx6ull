@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map EEPROM
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EEPROM	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readEEPROM	KEYWORD2
+writeEEPROM	KEYWORD2    
+exit	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+eeprom	LITERAL1
+i	LITERAL1
+txArray	LITERAL1
+rxArray	LITERAL1
+txLen	LITERAL1
+rxLen	LITERAL1
+txString	LITERAL1
+rxString	LITERAL1

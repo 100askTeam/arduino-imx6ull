@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map GPS
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GPS	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readRawData	KEYWORD2
+printfAnalyzeData	KEYWORD2    
+OLEDClearPage	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+gps	LITERAL1
+RawData	LITERAL1

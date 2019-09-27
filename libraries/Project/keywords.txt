@@ -1,0 +1,56 @@
+#######################################
+# Syntax Coloring Map OLEDMonitor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+CPU_OCCUPY	KEYWORD1
+MEM_OCCUPY	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getCPUOccupy	KEYWORD2
+getCPUInfo	KEYWORD2
+getMemInfo	KEYWORD2
+numToString	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+name	LITERAL1
+user	LITERAL1
+nice	LITERAL1
+system	LITERAL1
+idle	LITERAL1
+iowait	LITERAL1
+irq	LITERAL1
+softirq	LITERAL1
+cpu_occupy	LITERAL1
+buff	LITERAL1
+cpu_use	LITERAL1
+od	LITERAL1
+nd	LITERAL1
+sum	LITERAL1
+cpu_stat1	LITERAL1
+cpu_stat2	LITERAL1
+ram_use	LITERAL1
+str	LITERAL1
+
+
+
+
+
+
+
+
+
+
+
+
+

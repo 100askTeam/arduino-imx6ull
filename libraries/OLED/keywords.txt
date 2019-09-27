@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map OLED
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OLED	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+OLEDPrint	KEYWORD2
+OLEDClearAll	KEYWORD2    
+OLEDClearPage	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+oled	LITERAL1
+page	LITERAL1

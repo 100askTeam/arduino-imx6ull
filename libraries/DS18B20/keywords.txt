@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map DS18B20
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DS18B20	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readTemperature	KEYWORD2
+readFamilyCode	KEYWORD2    
+readCRC	KEYWORD2
+readSerialNum	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ds18b20	LITERAL1
+i	LITERAL1
+SerialNum	LITERAL1

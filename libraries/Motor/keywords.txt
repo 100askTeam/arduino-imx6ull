@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map Motor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MOTOR	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+motorForward	KEYWORD2
+motorReverse	KEYWORD2    
+motorStop	KEYWORD2
+setSpeed	KEYWORD2    
+getSpeed	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+motor	LITERAL1

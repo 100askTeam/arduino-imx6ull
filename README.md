@@ -1,1 +1,1 @@
-# arduino-imx6ull
+# arduio-100ask-boards
