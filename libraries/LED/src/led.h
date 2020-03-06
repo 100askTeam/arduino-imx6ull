@@ -3,10 +3,7 @@
 
 #include "gpio.h"
 
-#define LED1 ((1-1)*32+4)
-#define LED2 ((4-1)*32+20)
-#define LED3 ((4-1)*32+19)
-
+#define LED1 ((5-1)*32+3)
 
 class LED : public GPIO {
     public:

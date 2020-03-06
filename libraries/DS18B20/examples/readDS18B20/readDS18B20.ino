@@ -1,7 +1,7 @@
 /* 
 * Filename:    readDS18B20.ino
 * Revision:    1.0
-* Date:        2019/09/01
+* Date:        2020/03/04
 * Author:      hceng
 * Email:       huangcheng.job@foxmail.com
 * Website:     http://www.100ask.net/
@@ -9,7 +9,7 @@
 * Notes:       none.
 * Description: 
 * 1. 创建数组变量SerialNum；
-* 2. 实例化DS18B20；；
+* 2. 实例化DS18B20；
 * 3. 调用readSerialNum()读取DS18B20的唯一编号，返回结果保存在SerialNum里，打印出来；(不重要)
 * 4. 调用readTemperature()读取DS18B20的温度，并打印；(重要)
 * 5. 调用readFamilyCode()读取DS18B20的系列编号，并打印；(不重要)

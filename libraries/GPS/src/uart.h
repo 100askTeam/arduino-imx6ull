@@ -8,9 +8,10 @@
 #define UART2_PATH  "/dev/ttymxc2"
 #define UART3_PATH  "/dev/ttymxc3"
 #define UART4_PATH  "/dev/ttymxc4"
+#define UART5_PATH  "/dev/ttymxc5"
 
-#define UART_A  2
-#define UART_B  4
+#define UART_A  5
+//#define UART_B  4
 
 class UART {
     private:

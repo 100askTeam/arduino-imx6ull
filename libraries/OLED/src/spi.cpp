@@ -1,7 +1,6 @@
 
 #include "spi.h"
 
-
 static int spi_cs = -1;
 static int spidev0_fd = -1;
 static int spidev1_fd = -1;
@@ -60,7 +59,7 @@ SPI::SPI(SPI::SPIMODE mode, unsigned int speed, unsigned int bits, int cs)
         signal(SIGTERM, func1); 
         signal(SIGKILL, func1); //无法捕获kill -9 ,应用层不能kill -9 退出，不然会导致/dev/spidev1.x没有释放  
         
-        string s="/dev/spidev2.";
+        string s="/dev/spidev0.";
         stringstream ss;
         ss << this->m_iCS;
         this->m_sPath = s.append(ss.str());

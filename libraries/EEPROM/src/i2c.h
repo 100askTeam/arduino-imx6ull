@@ -7,9 +7,9 @@
 #define I2C1  "/dev/i2c-1"
 
 #define AT24C256  0x50
-#define RX8025SA  0x32
+
 #define I2C_A     1
-#define I2C_B     2
+#define I2C_B     1
 
 class I2C {
     private:

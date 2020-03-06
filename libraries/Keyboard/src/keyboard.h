@@ -4,8 +4,8 @@
 #include <Arduino.h>
 
 
-#define KEY1 (116)
-//#define KEY2 (11)
+#define KEY1 (2)
+#define KEY2 (3)
 
 #define KEYBOARD_EVENT_PATH   "/dev/input/event"
 

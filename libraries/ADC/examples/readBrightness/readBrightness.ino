@@ -1,7 +1,7 @@
 /* 
 * Filename:    readBrightness.ino
 * Revision:    1.0
-* Date:        2019/09/01
+* Date:        2020/03/04
 * Author:      hceng
 * Email:       huangcheng.job@foxmail.com
 * Website:     http://www.100ask.net/
@@ -16,7 +16,7 @@
 
 int main(int argc, char **argv)
 {
-    ADC adc(ADC_A);
+    ADC adc(ADC_B);
     
     while(1)
     {

@@ -18,10 +18,12 @@ UART::UART(int num)
         this->m_sPath = UART3_PATH;
 	else if(num == 4)
         this->m_sPath = UART4_PATH;
+	else if(num == 5)
+        this->m_sPath = UART5_PATH;
     else
     {
-        perror("Only uart0~3, use uart2");
-        this->m_sPath = UART2_PATH; 
+        perror("Only uart5, use uart5");
+        this->m_sPath = UART5_PATH; 
     }
     
     this->setUART();

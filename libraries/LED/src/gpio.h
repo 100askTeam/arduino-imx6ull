@@ -3,11 +3,11 @@
 
 #include <Arduino.h>
 
-#define GPIO0 ((4-1)*32+23)
-#define GPIO1 ((4-1)*32+25)
-#define GPIO2 ((4-1)*32+26)
-#define GPIO3 ((4-1)*32+27)
-#define GPIO4 ((4-1)*32+28)
+#define GPIO0 ((4-1)*32+19)
+#define GPIO1 ((4-1)*32+20)
+#define GPIO2 ((4-1)*32+21)
+#define GPIO3 ((4-1)*32+22)
+#define GPIO4 ((4-1)*32+23)
 
 class GPIO {
     private:

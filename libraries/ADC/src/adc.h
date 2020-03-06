@@ -3,8 +3,8 @@
 
 #include <Arduino.h>
 
-#define ADC1_PATH  "/sys/bus/iio/devices/iio:device0/in_voltage2_raw"
-#define ADC2_PATH  "/sys/bus/iio/devices/iio:device0/in_voltage3_raw"
+#define ADC1_PATH  "/sys/bus/iio/devices/iio:device0/in_voltage3_raw"
+#define ADC2_PATH  "/sys/bus/iio/devices/iio:device0/in_voltage4_raw"
 
 #define ADC_A  1
 #define ADC_B  2
