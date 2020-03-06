@@ -6,7 +6,7 @@
 # License as published by the Free Software Foundation; either
 # version 2.1 of the License, or (at your option) any later version.
 
-imx6ull.name=ebf_imx6ull_mini
+imx6ull.name=100ask_imx6ull
 
 
 imx6ull.upload.tool=copy
@@ -14,11 +14,11 @@ imx6ull.upload.protocol=copy
 imx6ull.upload.verbose=
 imx6ull.upload.speed=115200
 
-imx6ull.build.mcu=ebf_imx6ull_mini
+imx6ull.build.mcu=100ask_imx6ull
 imx6ull.build.f_cpu=
 imx6ull.build.board=RASPI
-imx6ull.build.core=ebf_imx6ull_mini
-imx6ull.build.variant=ebf_imx6ull_mini
+imx6ull.build.core=100ask_imx6ull
+imx6ull.build.variant=100ask_imx6ull
 imx6ull.build.debug_flags=
 imx6ull.build.optimization_flags=-O3
 
