@@ -15,6 +15,7 @@
 */
 #include <Arduino.h>
 #include <led.h>
+#include <gpio.h>
 #include <keyboard.h>
 
 int main(int argc, char **argv)
