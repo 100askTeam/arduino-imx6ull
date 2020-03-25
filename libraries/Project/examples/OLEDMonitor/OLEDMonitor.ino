@@ -16,7 +16,9 @@
 */
 
 #include <Arduino.h>
+#include <spi.h>
 #include <oled.h>
+#include <gpio.h>
 #include <ds18b20.h>
 
 /*
