@@ -16,7 +16,7 @@
 
 int main(int argc, char **argv)
 {
-    ADC adc(ADC_B);
+    ADC adc(ADC_A);
     
     while(1)
     {
